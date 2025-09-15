@@ -27,9 +27,9 @@ Data Analyst / Business Analyst:
 
      <img width="284" height="290" alt="image" src="https://github.com/user-attachments/assets/d9450efd-eb95-42cf-8795-af66ac777f89" />
 
-2. Run **01\_EDA.**sql  
-3. Run **02\_EDA.**sql  
-4. Run **03\_EDA.**sql  
+2. Run **01\_EDA**.sql  
+3. Run **02\_EDA**.sql  
+4. Run **03\_EDA**.sql  
 5. Run **04\_IndepthAnalysis**.sql  
 6. Run **05\_IndepthAnalysis**.sql  
 7. Run **06\_More\_Insights**.sql
