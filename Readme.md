@@ -110,13 +110,15 @@ sellers.csv
 Assuming you are a data analyst/ scientist at Target, you have been assigned the task of analyzing the given dataset to extract valuable insights and provide actionable recommendations. 
 
 **Import the dataset and do usual exploratory analysis steps like checking the structure & characteristics of the dataset:**  
+
 A) Data type of all columns in the “customers” table.  
 
 B) Get the time range between which the orders were placed.  
 
 C) Count the Cities & States of customers who ordered during the given period.  
 
-**In-depth Exploration:**
+**In-depth Exploration:**  
+
 A) Is there a growing trend in the no. of orders placed over the past years?  
 
 B) Can we see some kind of monthly seasonality in terms of the no. of orders being placed?  
@@ -129,12 +131,14 @@ C) During what time of the day, do the Brazilian customers mostly place their or
 | 13-18 hrs :| Afternoon |
 | 19-23 hrs :| Night |
 
-**Evolution of E-commerce orders in the Brazil region:**
+**Evolution of E-commerce orders in the Brazil region:**  
+
 A. Get the month on month no. of orders placed in each state.  
 
 B. How are the customers distributed across all the states?  
 
-**Impact on Economy: Analyze the money movement by e-commerce by looking at order prices, freight and others.**
+**Impact on Economy: Analyze the money movement by e-commerce by looking at order prices, freight and others.**  
+
 A. Get the % increase in the cost of orders from year 2017 to 2018 (include months between Jan to Aug only).  
 
 B. You can use the “payment_value” column in the payments table to get the cost of orders.  
@@ -145,11 +149,11 @@ D. Calculate the Total & Average value of order freight for each state.
 
 **Analysis based on sales, freight and delivery time.**  
 
-A) Find the no. of days taken to deliver each order from the order’s purchase date as delivery time.
-Also, calculate the difference (in days) between the estimated & actual delivery date of an order.
-Do this in a single query.
-You can calculate the delivery time and the difference between the estimated & actual delivery date using the given formula:
-=> time_to_deliver = order_delivered_customer_date - order_purchase_timestamp
+A) Find the no. of days taken to deliver each order from the order’s purchase date as delivery time.  
+Also, calculate the difference (in days) between the estimated & actual delivery date of an order.  
+Do this in a single query.  
+You can calculate the delivery time and the difference between the estimated & actual delivery date using the given formula:  
+=> time_to_deliver = order_delivered_customer_date - order_purchase_timestamp  
 => diff_estimated_delivery = order_estimated_delivery_date - order_delivered_customer_date  
 
 B) Find out the top 5 states with the highest & lowest average freight value.  
@@ -160,7 +164,8 @@ D) Find out the top 5 states where the order delivery is really fast as compared
 
 D) You can use the difference between the averages of actual & estimated delivery date to figure out how fast the delivery was for each state.  
 
-Analysis based on the payments:
+**Analysis based on the payments:**  
+
 A) Find the month on month no. of orders placed using different payment types.  
 
 B) Find the no. of orders placed on the basis of the payment installments that have been paid.  
