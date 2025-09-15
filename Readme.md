@@ -109,14 +109,18 @@ sellers.csv
 **Problem Statement:**
 Assuming you are a data analyst/ scientist at Target, you have been assigned the task of analyzing the given dataset to extract valuable insights and provide actionable recommendations. 
 
-**Import the dataset and do usual exploratory analysis steps like checking the structure & characteristics of the dataset:**
-A) Data type of all columns in the “customers” table.
-B) Get the time range between which the orders were placed.
-C) Count the Cities & States of customers who ordered during the given period.
+**Import the dataset and do usual exploratory analysis steps like checking the structure & characteristics of the dataset:**  
+A) Data type of all columns in the “customers” table.  
+
+B) Get the time range between which the orders were placed.  
+
+C) Count the Cities & States of customers who ordered during the given period.  
 
 **In-depth Exploration:**
-A) Is there a growing trend in the no. of orders placed over the past years? 
-B) Can we see some kind of monthly seasonality in terms of the no. of orders being placed?
+A) Is there a growing trend in the no. of orders placed over the past years?  
+
+B) Can we see some kind of monthly seasonality in terms of the no. of orders being placed?  
+
 C) During what time of the day, do the Brazilian customers mostly place their orders? (Dawn, Morning, Afternoon or Night)  
 | hours | timings |
 |--------|-------|
