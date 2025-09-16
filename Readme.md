@@ -1,12 +1,18 @@
 🛍️ Target Retail Business Case Study – SQL Analytics
 
 **Context**
-Target is a globally renowned brand and a prominent retailer in the United States. 
-Target makes itself a preferred shopping destination by offering outstanding value, inspiration, innovation and an exceptional guest experience that no other retailer can deliver. 
-This particular business case focuses on the operations of Target in Brazil and provides insightful information about 100,000 orders placed between 2016 and 2018.  
-The dataset offers a comprehensive view of various dimensions including the order status, price, payment and freight performance, customer location, product attributes, and customer reviews.
-By analyzing this extensive dataset, it becomes possible to gain valuable insights into Target's operations in Brazil. 
-The information can shed light on various aspects of the business, such as order processing, pricing strategies, payment and shipping efficiency, customer demographics, product characteristics, and customer satisfaction levels.
+
+    Target is a globally renowned brand and a prominent retailer in the United States. 
+    Target makes itself a preferred shopping destination by offering outstanding value, 
+    inspiration, innovation and an exceptional guest experience that no other retailer can deliver. 
+    This particular business case focuses on the operations of Target in Brazil 
+    and provides insightful information about 100,000 orders placed between 2016 and 2018.  
+    The dataset offers a comprehensive view of various dimensions including 
+    the order status, price, payment and freight performance, customer location, product attributes, and customer reviews.
+    By analyzing this extensive dataset, it becomes possible to gain valuable insights into Target's operations in Brazil. 
+    The information can shed light on various aspects of the business, such as order processing, 
+    pricing strategies, payment and shipping efficiency, customer demographics, product characteristics, 
+    and customer satisfaction levels.
 
 **Dataset:** https://drive.google.com/drive/folders/1TGEc66YKbD443nslRi1bWgVd238gJCnb?usp=sharing
 
@@ -107,66 +113,70 @@ sellers.csv
 🚀 **Welcome to the Target Data Analysis project!** 🎉
 
 **Problem Statement:**
-Assuming you are a data analyst/ scientist at Target, you have been assigned the task of analyzing the given dataset to extract valuable insights and provide actionable recommendations. 
+  
+    Assuming you are a data analyst/ scientist at Target, you have been assigned the task of analyzing 
+    the given dataset to extract valuable insights and provide actionable recommendations. 
 
 **Import the dataset and do usual exploratory analysis steps like checking the structure & characteristics of the dataset:**  
 
-A) Data type of all columns in the “customers” table.  
+    A) Data type of all columns in the “customers” table.  
 
-B) Get the time range between which the orders were placed.  
+    B) Get the time range between which the orders were placed.  
 
-C) Count the Cities & States of customers who ordered during the given period.  
+    C) Count the Cities & States of customers who ordered during the given period.  
 
 **In-depth Exploration:**  
 
-A) Is there a growing trend in the no. of orders placed over the past years?  
+    A) Is there a growing trend in the no. of orders placed over the past years?  
 
-B) Can we see some kind of monthly seasonality in terms of the no. of orders being placed?  
+    B) Can we see some kind of monthly seasonality in terms of the no. of orders being placed?  
 
-C) During what time of the day, do the Brazilian customers mostly place their orders? (Dawn, Morning, Afternoon or Night)  
-| hours | timings |
-|--------|-------|
-| 0-6 hrs :| Dawn |
-| 7-12 hrs :| Mornings |
-| 13-18 hrs :| Afternoon |
-| 19-23 hrs :| Night |
+    C) During what time of the day, do the Brazilian customers mostly place their orders? (Dawn, Morning, Afternoon or Night)  
+    | hours | timings |
+    |--------|-------|
+    | 0-6 hrs :| Dawn |
+    | 7-12 hrs :| Mornings |
+    | 13-18 hrs :| Afternoon |
+    | 19-23 hrs :| Night |
 
 **Evolution of E-commerce orders in the Brazil region:**  
 
-A. Get the month on month no. of orders placed in each state.  
+    A. Get the month on month no. of orders placed in each state.  
 
-B. How are the customers distributed across all the states?  
+    B. How are the customers distributed across all the states?  
 
 **Impact on Economy: Analyze the money movement by e-commerce by looking at order prices, freight and others.**  
 
-A. Get the % increase in the cost of orders from year 2017 to 2018 (include months between Jan to Aug only).  
+    A. Get the % increase in the cost of orders from year 2017 to 2018 (include months between Jan to Aug only).  
 
-B. You can use the “payment_value” column in the payments table to get the cost of orders.  
+    B. You can use the “payment_value” column in the payments table to get the cost of orders.  
 
-C. Calculate the Total & Average value of order price for each state.  
+    C. Calculate the Total & Average value of order price for each state.  
 
-D. Calculate the Total & Average value of order freight for each state.  
+    D. Calculate the Total & Average value of order freight for each state.  
 
 **Analysis based on sales, freight and delivery time.**  
 
-A) Find the no. of days taken to deliver each order from the order’s purchase date as delivery time.  
-Also, calculate the difference (in days) between the estimated & actual delivery date of an order.  
-Do this in a single query.  
-You can calculate the delivery time and the difference between the estimated & actual delivery date using the given formula:  
-=> time_to_deliver = order_delivered_customer_date - order_purchase_timestamp  
-=> diff_estimated_delivery = order_estimated_delivery_date - order_delivered_customer_date  
+    A) Find the no. of days taken to deliver each order from the order’s purchase date as delivery time.  
+    Also, calculate the difference (in days) between the estimated & actual delivery date of an order.  
+    Do this in a single query.  
+    You can calculate the delivery time and the difference between the estimated 
+    & actual delivery date using the given formula:  
+   
+    => time_to_deliver = order_delivered_customer_date - order_purchase_timestamp  
+    => diff_estimated_delivery = order_estimated_delivery_date - order_delivered_customer_date  
 
-B) Find out the top 5 states with the highest & lowest average freight value.  
+    B) Find out the top 5 states with the highest & lowest average freight value.  
 
-C) Find out the top 5 states with the highest & lowest average delivery time.  
+    C) Find out the top 5 states with the highest & lowest average delivery time.  
 
-D) Find out the top 5 states where the order delivery is really fast as compared to the estimated date of delivery.  
+    D) Find out the top 5 states where the order delivery is really fast as compared to the estimated date of delivery.  
 
-D) You can use the difference between the averages of actual & estimated delivery date to figure out how fast the delivery was for each state.  
+    E) You can use the difference between the averages of actual & estimated delivery date to figure out how fast the delivery was for each state.  
 
 **Analysis based on the payments:**  
 
-A) Find the month on month no. of orders placed using different payment types.  
+    A) Find the month on month no. of orders placed using different payment types.  
 
-B) Find the no. of orders placed on the basis of the payment installments that have been paid.  
+    B) Find the no. of orders placed on the basis of the payment installments that have been paid.  
 
