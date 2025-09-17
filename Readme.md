@@ -1,6 +1,21 @@
-🛍️ Target Retail Business Case Study – SQL Analytics
+![Target Badge](https://img.shields.io/badge/target-red?logo=target)
+# Target Retail Business Case Study – SQL Analytics
 
-**Context**
+### **Extras**
+
+    * Build a Tableau Dashboard  
+
+    * Building a Cloud based Data Pipeline
+
+    * Building  a simple App - Front end, Back end
+
+### **Technologies Used**
+![Tableau badge](https://img.shields.io/badge/tableau-E97627?logo=tableau&logoColor=white)
+![AWS badge](https://img.shields.io/badge/aws-232F3E?logo=amazon-aws&logoColor=white)
+![SQL badge](https://img.shields.io/badge/sql-336791?logo=postgresql&logoColor=white)
+![Streamlit badge](https://img.shields.io/badge/streamlit-FF4B4B?logo=streamlit&logoColor=white)
+
+## **Context**
 
     Target is a globally renowned brand and a prominent retailer in the United States. 
     Target makes itself a preferred shopping destination by offering outstanding value, 
@@ -14,7 +29,8 @@
     pricing strategies, payment and shipping efficiency, customer demographics, product characteristics, 
     and customer satisfaction levels.
 
-**Dataset:** https://drive.google.com/drive/folders/1TGEc66YKbD443nslRi1bWgVd238gJCnb?usp=sharing
+## **Dataset:** 
+https://drive.google.com/drive/folders/1TGEc66YKbD443nslRi1bWgVd238gJCnb?usp=sharing
 
 The data is available in 8 different csv files:
 customers.csv
@@ -110,14 +126,14 @@ sellers.csv
 
 <img width="2045" height="1232" alt="image" src="https://github.com/user-attachments/assets/b2ee8610-f6fb-440d-9fa3-19a5ee128455" />
 
-🚀 **Welcome to the Target Data Analysis project!** 🎉
+## 🚀 **Welcome to the Target Data Analysis project!** 🎉
 
-**Problem Statement:**
+### **Problem Statement:**
   
     Assuming you are a data analyst/ scientist at Target, you have been assigned the task of analyzing 
     the given dataset to extract valuable insights and provide actionable recommendations. 
 
-**Import the dataset and do usual exploratory analysis steps like checking the structure & characteristics of the dataset:**  
+### **Import the dataset and do usual exploratory analysis steps like checking the structure & characteristics of the dataset:**  
 
     A) Data type of all columns in the “customers” table.  
 
@@ -125,7 +141,7 @@ sellers.csv
 
     C) Count the Cities & States of customers who ordered during the given period.  
 
-**In-depth Exploration:**  
+### **In-depth Exploration:**  
 
     A) Is there a growing trend in the no. of orders placed over the past years?  
 
@@ -139,13 +155,13 @@ sellers.csv
     | 13-18 hrs :| Afternoon |
     | 19-23 hrs :| Night |
 
-**Evolution of E-commerce orders in the Brazil region:**  
+### **Evolution of E-commerce orders in the Brazil region:**  
 
     A. Get the month on month no. of orders placed in each state.  
 
     B. How are the customers distributed across all the states?  
 
-**Impact on Economy: Analyze the money movement by e-commerce by looking at order prices, freight and others.**  
+### **Impact on Economy: Analyze the money movement by e-commerce by looking at order prices, freight and others.**  
 
     A. Get the % increase in the cost of orders from year 2017 to 2018 (include months between Jan to Aug only).  
 
@@ -155,7 +171,7 @@ sellers.csv
 
     D. Calculate the Total & Average value of order freight for each state.  
 
-**Analysis based on sales, freight and delivery time.**  
+### **Analysis based on sales, freight and delivery time.**  
 
     A) Find the no. of days taken to deliver each order from the order’s purchase date as delivery time.  
     Also, calculate the difference (in days) between the estimated & actual delivery date of an order.  
@@ -174,9 +190,8 @@ sellers.csv
 
     E) You can use the difference between the averages of actual & estimated delivery date to figure out how fast the delivery was for each state.  
 
-**Analysis based on the payments:**  
+### **Analysis based on the payments:**  
 
     A) Find the month on month no. of orders placed using different payment types.  
 
     B) Find the no. of orders placed on the basis of the payment installments that have been paid.  
-
