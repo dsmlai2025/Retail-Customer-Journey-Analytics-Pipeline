@@ -195,3 +195,12 @@ sellers.csv
     A) Find the month on month no. of orders placed using different payment types.  
 
     B) Find the no. of orders placed on the basis of the payment installments that have been paid.  
+
+
+### **Future Improvements**
+
+   1) *End-End Pipeline:* Retail Customer Journey Analytics Pipeline
+      Full pipeline from data ingestion and transformation to analysis and visualization in a scalable, cloud-native environment.
+    
+   2) *Customer Journey Stages*
+      Define the customer journey stages and track the associated metrics (Acquisition, Growth, Retention)
