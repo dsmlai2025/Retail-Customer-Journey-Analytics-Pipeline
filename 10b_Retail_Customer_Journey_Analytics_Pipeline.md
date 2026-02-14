@@ -21,7 +21,7 @@ Redshift, and Metabase for data analysis and visualization.
 6. Integrate these components into a seamless cloud-based data pipeline for end-to-end data engineering and analysis.
 
 ### Follow the PDF for more detailed instructions of above steps.
-10_Retail Customer Journey Analytics Pipeline.pdf
+docs/10_Retail Customer Journey Analytics Pipeline Setup.pdf
 
 ### Metabase Dashboard
 
