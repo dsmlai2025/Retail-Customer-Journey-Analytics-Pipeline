@@ -196,11 +196,14 @@ sellers.csv
 
     B) Find the no. of orders placed on the basis of the payment installments that have been paid.  
 
+A) *Follow:* docs/07_How to Run.md file to do carry out the SQL analysis
 
 ### **Future Improvements**
 
    1) *End-End Pipeline:* Retail Customer Journey Analytics Pipeline
       Full pipeline from data ingestion and transformation to analysis and visualization in a scalable, cloud-native environment.
-    
-   2) *Customer Journey Stages*
+      A) *Follow:* docs/10b_Retail_Customer_Journey_Analytics_Pipeline.md file to setup the Cloud Infrastructure Pipeline.
+
+   3) *Customer Journey Stages*
       Define the customer journey stages and track the associated metrics (Acquisition, Growth, Retention)
+      A) *Follow:* docs md and PDF files to setup the Journey stages, Build Dashboard and Streamlit Application.
